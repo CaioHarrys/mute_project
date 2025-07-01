@@ -7,7 +7,7 @@ Este é um aplicativo mobile criado para facilitar a **comunicação entre pesso
 ## 📱 Funcionalidades
 
 - 📸 Captura de sinais com a câmera do celular
-- ✋ Reconhecimento de gestos em LIBRAS (letras, palavras e frases)
+- ✋ Reconhecimento de gestos em **LIBRAS** (letras, palavras e frases)
 - 🧠 Conversão dos sinais em texto usando IA treinada
 - 🔊 Transformação do texto em fala (TTS) para comunicação com ouvintes
 - ⚙️ Configurações de voz, idioma e velocidade da fala
@@ -20,7 +20,7 @@ Este é um aplicativo mobile criado para facilitar a **comunicação entre pesso
  - Expo CLI
  - VSCode
  - App Expo Go no celular
-
+---
  ### Instalação do app mobile
  ```bash
  git clone https://github.com/seu-usuario/libras-translator-app.git
@@ -48,6 +48,7 @@ Text-to-Speech (TTS) converte para áudio
         ↓
 Áudio é reproduzido para pessoa ouvinte 
 ```
+---
 
 ## 🗂️ Estrutura de Pastas
 
@@ -86,3 +87,27 @@ libras-translator-app/
 - [Flask](https://flask.palletsprojects.com/) ou [FastAPI](https://fastapi.tiangolo.com/)
 - [Google Text-to-Speech API](https://cloud.google.com/text-to-speech)
 ---
+## 📌 Roadmap
+### Em andamento
+ - Estrutura do app com React Native 
+
+ - Telas base: Home, Tradução, Configurações
+
+ - Integração com câmera e MediaPipe
+
+ - Treinamento inicial de modelo de IA
+
+ - TTS com múltiplas vozes
+
+ - Suporte a frases e expressões faciais
+
+ - Deploy do backend (Railway ou Render)
+
+ - Publicação na Play Store e App Store
+### Feito
+
+---
+
+## 🧑🏻‍💻 Autor
+- **Caio Ferraz da Cunha**
+- Desenvolvedor **Full Stack** & entusiasta de **IA** aplicada à acessibilidade.
