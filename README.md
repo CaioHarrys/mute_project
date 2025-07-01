@@ -111,3 +111,4 @@ libras-translator-app/
 ## 🧑🏻‍💻 Autor
 - **Caio Ferraz da Cunha**
 - Desenvolvedor **Full Stack** & entusiasta de **IA** aplicada à acessibilidade.
+---
