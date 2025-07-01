@@ -70,3 +70,19 @@ libras-translator-app/
 ├── datasets/                # Base de dados de sinais
 └── README.md
 ```
+---
+## ⚙️ Tecnologias Utilizadas
+
+### 📱 Mobile
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [expo-speech](https://docs.expo.dev/versions/latest/sdk/speech/)
+
+### 🧠 IA e Backend
+- [MediaPipe](https://google.github.io/mediapipe/)
+- [OpenCV](https://opencv.org/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [Flask](https://flask.palletsprojects.com/) ou [FastAPI](https://fastapi.tiangolo.com/)
+- [Google Text-to-Speech API](https://cloud.google.com/text-to-speech)
+---
