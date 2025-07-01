@@ -26,7 +26,8 @@ Este é um aplicativo mobile criado para facilitar a **comunicação entre pesso
  git clone https://github.com/seu-usuario/libras-translator-app.git
  cd libras-translator-app/mobile
  npm install
- npm start
+ npm start 
+ ```
  - Use o QR Code no Expo Go para rodar no celular.
 ---
 
