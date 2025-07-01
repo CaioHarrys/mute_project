@@ -1,52 +1,34 @@
-# 🤟 Tradutor LIBRAS – App Mobile de Acessibilidade
+# 🤟 Tradutor de LIBRAS – Comunicação Inclusiva em Tempo Real
 
-Aplicativo mobile que traduz **sinais da Língua Brasileira de Sinais (LIBRAS)** capturados pela câmera do celular em **texto** e **áudio** em tempo real, facilitando a comunicação entre pessoas surdas/mudas e ouvintes.
+Este é um aplicativo mobile criado para facilitar a **comunicação entre pessoas surdas/mudas e ouvintes**, traduzindo sinais em **LIBRAS (Língua Brasileira de Sinais)** em **texto e áudio em tempo real**, usando a câmera do dispositivo, visão computacional e inteligência artificial.
 
 ---
 
 ## 📱 Funcionalidades
 
-- 📷 Captura de sinais com a câmera do celular
-- 🧠 Reconhecimento de gestos utilizando IA (MediaPipe + TensorFlow)
-- 📝 Conversão de gestos em texto legível
-- 🔊 Leitura em voz alta usando TTS (Text-to-Speech)
-- ⚙️ Configurações de idioma e voz
-- 👥 Inclusão e acessibilidade como foco principal
+- 📸 Captura de sinais com a câmera do celular
+- ✋ Reconhecimento de gestos em LIBRAS (letras, palavras e frases)
+- 🧠 Conversão dos sinais em texto usando IA treinada
+- 🔊 Transformação do texto em fala (TTS) para comunicação com ouvintes
+- ⚙️ Configurações de voz, idioma e velocidade da fala
+- 🔒 Interface acessível, leve e otimizada para dispositivos móveis
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧠 Arquitetura do Projeto
 
-### Front-end (Mobile)
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [React Navigation](https://reactnavigation.org/)
-- [Expo Camera](https://docs.expo.dev/versions/latest/sdk/camera/)
-- [expo-speech](https://docs.expo.dev/versions/latest/sdk/speech/)
+```text
+Usuário faz sinal com a mão
+        ↓
+Camera do celular com MediaPipe Hands
+        ↓
+Detecta posição e movimento dos dedos
+        ↓
+Modelo de IA interpreta o gesto → Palavra
+        ↓
+Palavra aparece como TEXTO na tela
+        ↓
+Text-to-Speech (TTS) converte para áudio
+        ↓
+Áudio é reproduzido para pessoa ouvinte
 
-### IA e Reconhecimento
-- [MediaPipe Hands](https://developers.google.com/mediapipe)
-- [TensorFlow / Keras](https://www.tensorflow.org/)
-- [OpenCV (para pré-processamento)](https://opencv.org/)
-
-### Backend (opcional)
-- Python + Flask/FastAPI (servindo o modelo de IA)
-- TTS via Google Cloud, Amazon Polly ou ElevenLabs API
-
----
-
-## 📂 Estrutura do Projeto
-
-'libras-translator-app/
-├── mobile/ # App mobile com React Native
-│ ├── App.js
-│ ├── screens/
-│ ├── components/
-│ ├── services/
-│ └── utils/
-├── backend-ia/ # API Python com IA (opcional)
-│ ├── main.py
-│ ├── models/
-│ └── preprocessing/
-├── datasets/ # Dataset de sinais LIBRAS
-└── README.md'
