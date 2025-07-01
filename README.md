@@ -14,6 +14,21 @@ Este é um aplicativo mobile criado para facilitar a **comunicação entre pesso
 - 🔒 Interface acessível, leve e otimizada para dispositivos móveis
 
 ---
+## 🚀 Como rodar o projeto
+- Pré requisitos 
+ - Node.js
+ - Expo CLI
+ - VSCode
+ - App Expo Go no celular
+
+ ### Instalação do app mobile
+ ```bash
+ git clone https://github.com/seu-usuario/libras-translator-app.git
+ cd libras-translator-app/mobile
+ npm install
+ npm start
+ - Use o QR Code no Expo Go para rodar no celular.
+---
 
 ## 🧠 Arquitetura do Projeto
 
@@ -32,3 +47,23 @@ Text-to-Speech (TTS) converte para áudio
         ↓
 Áudio é reproduzido para pessoa ouvinte
 
+## 🗂️ Estrutura de Pastas
+
+```text
+libras-translator-app/
+├── mobile/                  # App em React Native
+│   ├── App.js
+│   ├── screens/             # Telas: Home, Tradução, Config
+│   ├── components/          # Componentes reutilizáveis
+│   ├── services/            # Integração com TTS e API
+│   ├── assets/              # Ícones, imagens
+│   └── utils/               # Funções auxiliares
+│
+├── backend-ia/              # API Python para reconhecimento de gestos
+│   ├── main.py              # Endpoints de tradução
+│   ├── models/              # Modelos treinados
+│   ├── preprocessing/       # Pré-processamento dos dados
+│   └── media/               # Dados brutos para treino/teste
+│
+├── datasets/                # Base de dados de sinais
+└── README.md
