@@ -46,7 +46,8 @@ Palavra aparece como TEXTO na tela
         ↓
 Text-to-Speech (TTS) converte para áudio
         ↓
-Áudio é reproduzido para pessoa ouvinte
+Áudio é reproduzido para pessoa ouvinte 
+```
 
 ## 🗂️ Estrutura de Pastas
 
@@ -68,3 +69,4 @@ libras-translator-app/
 │
 ├── datasets/                # Base de dados de sinais
 └── README.md
+```
